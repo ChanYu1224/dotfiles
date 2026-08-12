@@ -1,0 +1,45 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'tpope/vim-endwise'
+
+[[plugins]]
+repo = 'Townk/vim-autoclose'
+
+[[plugins]]
+repo = 'w0rp/ale'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+hook_add = 'source ~/.config/nvim/plugins/gitgutter.vim'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+hook_add = 'source ~/.config/nvim/plugins/fugitive.vim'
+
+[[plugins]]
+repo = 'osyo-manga/vim-anzu'
+hook_add = 'source ~/.config/nvim/plugins/anzu.vim'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+hook_add = 'source ~/.config/nvim/plugins/airline.vim'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'preservim/nerdtree'
+hook_add = 'source ~/.config/nvim/plugins/nerdtree.vim'
+
+[[plugins]]
+repo = 'junegunn/rainbow_parentheses.vim'
+hook_add = 'source ~/.config/nvim/plugins/rainbow_parentheses.vim'
+
+[[plugins]]
+repo = 'sickill/vim-monokai'
+
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+hook_add = 'source ~/.config/nvim/plugins/lsp.vim'
