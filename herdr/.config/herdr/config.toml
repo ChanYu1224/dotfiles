@@ -1,0 +1,14 @@
+[keys]
+# tmux: bind - split-window -v（上下分割）→ herdrデフォルトと同じだが明示
+split_horizontal = "prefix+minus"
+# tmux: bind \ split-window -h（左右分割）
+split_vertical = 'prefix+\'
+# ペインの移動
+focus_pane_right = "prefix+l"
+focus_pane_left  = "prefix+j"
+focus_pane_up    = "prefix+i"
+focus_pane_down  = "prefix+k"
+
+
+[ui]
+agent_panel_sort = "spaces"
