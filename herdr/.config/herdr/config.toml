@@ -8,6 +8,11 @@ focus_pane_right = "prefix+l"
 focus_pane_left  = "prefix+j"
 focus_pane_up    = "prefix+i"
 focus_pane_down  = "prefix+k"
+# スペース(workspace)の切り替え: ペイン移動の i(上)/k(下) の shift 版
+previous_workspace = "prefix+shift+i"
+next_workspace     = "prefix+shift+k"
+# 番号で直接ジャンプ
+switch_workspace   = "prefix+shift+1..9"
 
 
 [ui]
